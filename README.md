@@ -12,7 +12,7 @@ require 'sinatra/error'
 
 # parameters:
 #	message => String or Hash with the output
-#	status  => Integer (default  401)
+#	status  => Integer (default  403)
 #	format  => Symbol  (default  :json)
 	
 error!({ 'error' => 'unauthorized', 'detail' => 'login required' }, 401) unless logged?
