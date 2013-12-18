@@ -6,6 +6,8 @@ Error handling in Sinatra like Grape.
 
 Like in Grape, now you can do this in Sinatra
 
+`$ gem install sinatra-error`
+
 ```ruby
 require 'sinatra'
 require 'sinatra/error'
